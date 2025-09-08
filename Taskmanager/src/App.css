@@ -1,0 +1,116 @@
+/* Facebook-like login page styles */
+.fb-login-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.fb-login-left {
+  flex: 1;
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.fb-title {
+  color: #1877f2;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.fb-desc {
+  font-size: 1.5rem;
+  color: #1c1e21;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.fb-login-right {
+  flex: 1;
+  max-width: 400px;
+  background: #fff;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fb-login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fb-login-form input[type="text"],
+.fb-login-form input[type="password"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  background: #f5f6fa;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.fb-login-form input[type="text"]:hover,
+.fb-login-form input[type="password"]:hover,
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border-color: #a97c6d;
+  box-shadow: 0 0 6px #a97c6d33;
+}
+
+.fb-login-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+.fb-login-btn:hover {
+  background: #166fe5;
+}
+
+.fb-divider {
+  border-bottom: 1px solid #dadde1;
+  margin: 1.2rem 0;
+}
+
+.fb-create-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+.fb-create-btn:hover {
+  background: #36a420;
+}
+.login{
+  align-items: center;
+  font-size:2rem;
+  text-align: center;
+  
+}
+h2{
+  text-align:center;
+}
